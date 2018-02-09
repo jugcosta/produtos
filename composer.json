@@ -1,0 +1,27 @@
+{
+    "name": "jugcosta/produtos",
+    "description": "Gestão de Cadastro de Produtos para vendas, com opção de Criação de kits",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Juliana Costa",
+            "email": "jugcosta@ymail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jugcosta\\produtos\\": ""
+        }
+    }
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/jugcosta/produtos.git"
+		}
+	]
+}
